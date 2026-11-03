@@ -308,7 +308,7 @@ function App() {
                 <div className="portrait-frame">
                   <div className="portrait-top"><span>PROFILE // 001</span><span>●</span></div>
                   <div className="portrait-placeholder" aria-label={t.photoPending}>
-                    <span className="portrait-monogram">FC</span>
+                    <img className="portrait-photo" src="/portrait.svg" alt="Filipe Carneiro da Silva" loading="eager" />
                     <span className="portrait-noise">01 — FCS</span>
                   </div>
                   <div className="portrait-bottom"><span>FILIPE CARNEIRO</span><span>BR • ES</span></div>

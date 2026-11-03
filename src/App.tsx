@@ -293,7 +293,7 @@ function App() {
             <div className="hero-inner">
               <div className="hero-content">
                 <div className="signal"><i/> {t.eyebrow}<span className="signal-line"/></div>
-                <p className="hero-code">portfolio://filipe-carneiro / curriculum</p>
+                <p className="hero-code">curriculum://filipe-carneiro / profile</p>
                 <h1>Filipe<br/><span>Carneiro da Silva</span></h1>
                 <p className="hero-statement">{t.subline}</p>
                 <p className="hero-intro">{t.intro}</p>

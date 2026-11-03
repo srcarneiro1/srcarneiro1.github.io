@@ -1,0 +1,8 @@
+#!/bin/sh
+# Bloqueia o commit se houver PDF, planilha, chave, telefone, CPF ou e-mail não autorizado no que foi adicionado.
+# Ativado automaticamente pelo `npm install` (script "prepare"). Uploads pelo site do GitHub NÃO passam por aqui.
+node scripts/check-sensitive.mjs --staged || {
+  echo ""
+  echo "Commit bloqueado pela verificação de privacidade. Remova o arquivo com: git restore --staged <arquivo>"
+  exit 1
+}
